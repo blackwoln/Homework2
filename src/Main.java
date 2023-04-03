@@ -55,6 +55,15 @@ public class Main {
         var weightVariance = weightCommon % weightBoxer1;
         System.out.println("Разница  " + weightVariance + " кг!");
 
+        var totalTime = 640;
+        var timeEmployee = 8;
+        var allEmployee = totalTime / timeEmployee;
+        System.out.println("Всего работников в компании — " + allEmployee + " человек");
+        var newEmployee = allEmployee + 94;
+        System.out.println("После наёма новых людей, сотрудников стало — " + newEmployee + " человек");
+        var newtimeEmployee = totalTime / newEmployee;
+        System.out.println("Если в компании работает " + newEmployee + " человек, то всего " + newtimeEmployee + " часа работы может быть поделено между сотрудниками");
+
     }
 
     public static void task2 () {
