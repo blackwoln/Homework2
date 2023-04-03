@@ -28,6 +28,13 @@ public class Main {
         paper = paper - 7636;
         System.out.println(paper);
 
+        var friend = 19;
+        System.out.println(friend);
+        friend = friend + 2;
+        System.out.println(friend);
+        friend = friend / 7;
+        System.out.println(friend);
+
     }
 
     public static void task2 () {
