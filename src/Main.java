@@ -44,11 +44,17 @@ public class Main {
         frog = frog + 4;
         System.out.println(frog);
 
+        var weightBoxer1 = 78.2;
+        var weightBoxer2 = 82.7;
+        var weightCommon = weightBoxer1 + weightBoxer2;
+        System.out.println("Общий вес двух бойцов " + weightCommon + " кг!");
+        var weightDifference = weightBoxer2 - weightBoxer1;
+        System.out.println("Разница между бойцами составляет " + weightDifference + " кг!");
+
     }
 
     public static void task2 () {
         System.out.println("Задача 2");
-
 
     }
 
