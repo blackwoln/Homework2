@@ -48,8 +48,12 @@ public class Main {
         var weightBoxer2 = 82.7;
         var weightCommon = weightBoxer1 + weightBoxer2;
         System.out.println("Общий вес двух бойцов " + weightCommon + " кг!");
-        var weightDifference = weightBoxer2 - weightBoxer1;
+        var weightDifference = weightBoxer1 - weightBoxer2;
         System.out.println("Разница между бойцами составляет " + weightDifference + " кг!");
+        weightDifference = weightBoxer2 - weightBoxer1;
+        System.out.println("Разница между бойцами  " + weightDifference + " кг!");
+        var weightVariance = weightCommon % weightBoxer1;
+        System.out.println("Разница  " + weightVariance + " кг!");
 
     }
 
