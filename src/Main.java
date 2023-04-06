@@ -163,6 +163,25 @@ public class Main {
         System.out.println("Среднее значение  " + averageTaim + "  день" + "! Для похудания");
 
 
+        int masha = 67760;
+        int denis = 83690;
+        int christina = 76230;
+        int yearMasha1 = masha * 12;
+        int newMasha = masha + 6776;
+        int yearMasha2 = newMasha * 12;
+        int differenceMasha = yearMasha2 - yearMasha1;
+        System.out.println("Маша теперь получает " + newMasha + " рублей. Годовой доход вырос на " + differenceMasha + " рублей");
+        int yearDenis1 = denis * 12;
+        int newDenis = denis + 8369;
+        int yearDenis2 = newDenis * 12;
+        int differenceDenis = yearDenis2 - yearDenis1;
+        System.out.println("Денис теперь получает " + newDenis + " рублей. Годовой доход вырос на " + differenceDenis + " рублей");
+        int yearChristina1 = christina * 12;
+        int newChristina = christina + 7623;
+        int yearChristina2 = newChristina * 12;
+        int differenceChristina = yearChristina2 - yearChristina1;
+        System.out.println("Кристина теперь получает " + newChristina + " рублей. Годовой доход вырос на " + differenceChristina + " рублей");
+
 
     }
 
