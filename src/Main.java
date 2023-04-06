@@ -114,6 +114,22 @@ public class Main {
         byte win1 = (byte) (paper1 / (class4 + class5 + class6));
         System.out.println("На каждого ученика рассчитано " + win1 + " листов бумаги" );
 
+        byte bottle = 16;
+        byte timeBottle = (byte) (bottle / 2);
+        System.out.println("Машина производит за 1 минуту " + timeBottle + " бутылок" );
+        byte time1 = 20;
+        short timeBottle1 = (short) (timeBottle * time1);
+        System.out.println("За " + time1 + " минут машина произвела " + timeBottle1 + " штук бутылок" );
+        short dayMin = (short) (24 * 60 );
+        short dayBottel = (short) (timeBottle * dayMin);
+        System.out.println("За сутки машина произвела " + dayBottel + " штук бутылок" );
+        short threeDay = (short) (dayMin * 3 );
+        int threeBottel = threeDay * timeBottle;
+        System.out.println("За 3 дня машина произвела " + threeBottel + " штук бутылок" );
+        int monthTime = dayMin * 30 ;
+        int monthBottel = monthTime * timeBottle;
+        System.out.println("За месяц машина произвела " + monthBottel + " штук бутылок" );
+
     }
 
 }
