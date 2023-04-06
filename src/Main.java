@@ -150,6 +150,20 @@ public class Main {
         System.out.println("Вес спортзавтракка " + kotelgKilogram + " в кг!");
 
 
+        byte allWeight = 7;
+        short weight1 = 250;
+        short weight2 = 500;
+        short allGrams = (short) (allWeight * 1000);
+        System.out.println("Перевели кг в гр и получили " + allGrams + "  гр!");
+        short taim1 = (short) (allGrams / weight1);
+        System.out.println("Если спортсмен будеть худеть " + weight1 + "  гр в день! То на это уйдет " + taim1 + " дней");
+        short taim2 = (short) (allGrams / weight2);
+        System.out.println("Если спортсмен будеть худеть " + weight2 + "  гр в день! То на это уйдет " + taim2 + " дней");
+        short averageTaim = (short) ((taim1 + taim2) / 2 );
+        System.out.println("Среднее значение  " + averageTaim + "  день" + "! Для похудания");
+
+
+
     }
 
 }
