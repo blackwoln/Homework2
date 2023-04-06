@@ -130,6 +130,15 @@ public class Main {
         int monthBottel = monthTime * timeBottle;
         System.out.println("За месяц машина произвела " + monthBottel + " штук бутылок" );
 
+        byte totalBank = 120;
+        byte bulayaBank = 2;
+        byte brownBank = 4;
+        byte oneClass = (byte) (bulayaBank + brownBank);
+        byte allClass = (byte) (totalBank / oneClass);
+        byte allBulay = (byte) (allClass * bulayaBank);
+        byte allBrown =(byte) (allClass * brownBank);
+        System.out.println("В школе, где " + allClass + " классов, нужно " + allBulay + " банок белой краски и " + allBrown + " банок коричневой краски" );
+
     }
 
 }
