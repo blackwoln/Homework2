@@ -5,7 +5,7 @@ public class Main {
     }
 
     public static void task1 () {
-        System.out.println("Задача 1");
+        System.out.println("Переменные. Урок 1");
 
         var dog = 8.0;
         System.out.println(dog);
@@ -67,7 +67,20 @@ public class Main {
     }
 
     public static void task2 () {
-        System.out.println("Задача 2");
+        System.out.println("Переменные. Урок 2");
+
+        byte a = 112;
+        System.out.println(a);
+        short b = 24578;
+        System.out.println(b);
+        int c = 3950068;
+        System.out.println(c);
+        long f = 394878989;
+        System.out.println(f);
+        float r = 3.64f;
+        System.out.println(r);
+        double m = -1.984f;
+        System.out.println(m);
 
     }
 
