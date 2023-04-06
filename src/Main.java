@@ -97,6 +97,23 @@ public class Main {
         byte x = 67;
         System.out.println(x);
 
+        byte class1 = 23;
+        byte class2 = 27;
+        byte class3 = 30;
+        short paper = 480;
+        byte totalClass = (byte) (class1 + class2 + class3);
+        System.out.println("Всего учеников " + totalClass);
+        byte win = (byte) (paper / totalClass);
+        System.out.println("На каждого ученика рассчитано " + win + " листов бумаги" );
+
+        System.out.println("Попробуем решить по другому" );
+        byte class4 = 23;
+        byte class5 = 27;
+        byte class6 = 30;
+        short paper1 = 480;
+        byte win1 = (byte) (paper1 / (class4 + class5 + class6));
+        System.out.println("На каждого ученика рассчитано " + win1 + " листов бумаги" );
+
     }
 
 }
