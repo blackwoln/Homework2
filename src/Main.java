@@ -61,8 +61,8 @@ public class Main {
         System.out.println("Всего работников в компании — " + allEmployee + " человек");
         var newEmployee = allEmployee + 94;
         System.out.println("После наёма новых людей, сотрудников стало — " + newEmployee + " человек");
-        var newtimeEmployee = totalTime / newEmployee;
-        System.out.println("Если в компании работает " + newEmployee + " человек, то всего " + newtimeEmployee + " часа работы может быть поделено между сотрудниками");
+        var timeEmployee2 = totalTime / newEmployee;
+        System.out.println("Если в компании работает " + newEmployee + " человек, то всего " + timeEmployee2 + " часа работы может быть поделено между сотрудниками");
 
     }
 
@@ -75,12 +75,27 @@ public class Main {
         System.out.println(b);
         int c = 3950068;
         System.out.println(c);
-        long f = 394878989;
+        long f = 394878989654546L;
         System.out.println(f);
         float r = 3.64f;
         System.out.println(r);
         double m = -1.984f;
         System.out.println(m);
+
+        float g = 27.12f;
+        System.out.println(g);
+        long l = 987678965549L;
+        System.out.println(l);
+        double p = 2.786;
+        System.out.println(p);
+        short q = 569;
+        System.out.println(q);
+        short w = -159;
+        System.out.println(w);
+        short z = 27897;
+        System.out.println(z);
+        byte x = 67;
+        System.out.println(x);
 
     }
 
