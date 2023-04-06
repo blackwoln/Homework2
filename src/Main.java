@@ -139,6 +139,17 @@ public class Main {
         byte allBrown =(byte) (allClass * brownBank);
         System.out.println("В школе, где " + allClass + " классов, нужно " + allBulay + " банок белой краски и " + allBrown + " банок коричневой краски" );
 
+
+        byte banana = 5;
+        short milk = 200;
+        byte ice = 2;
+        byte eggs = 4;
+        short kotelgGrams = (short) ((banana * 80) + ( milk * 1.05 ) + (ice * 100) + ( eggs * 70));
+        System.out.println("Вес спортзавтракка " + kotelgGrams + " в гр!");
+        float kotelgKilogram = (float) kotelgGrams / 1000;
+        System.out.println("Вес спортзавтракка " + kotelgKilogram + " в кг!");
+
+
     }
 
 }
