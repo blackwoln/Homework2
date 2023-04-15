@@ -7,12 +7,15 @@ public class Main {
     public static void task1 () {
         System.out.println("Переменные. Урок 1");
 
+        // Задача 1, 2, 3 все вместе, так как используем одни и теже переменные
+
         var dog = 8.0;
         System.out.println(dog);
         dog = dog + 4;
         System.out.println(dog);
         dog = dog - 3.5;
         System.out.println(dog);
+        System.out.println();
 
         var cat = 3.6;
         System.out.println(cat);
@@ -20,6 +23,7 @@ public class Main {
         System.out.println(cat);
         cat = cat - 3.5;
         System.out.println(cat);
+        System.out.println();
 
         var paper = 763789;
         System.out.println(paper);
@@ -27,6 +31,9 @@ public class Main {
         System.out.println(paper);
         paper = paper - 7636;
         System.out.println(paper);
+        System.out.println();
+
+        // Задача 4
 
         var friend = 19;
         System.out.println(friend);
@@ -34,6 +41,9 @@ public class Main {
         System.out.println(friend);
         friend = friend / 7;
         System.out.println(friend);
+        System.out.println();
+
+        // Задача 5
 
         var frog = 3.5;
         System.out.println(frog);
@@ -43,18 +53,23 @@ public class Main {
         System.out.println(frog);
         frog = frog + 4;
         System.out.println(frog);
+        System.out.println();
 
-        var weightBoxer1 = 78.2;
-        var weightBoxer2 = 82.7;
-        var weightCommon = weightBoxer1 + weightBoxer2;
+
+        // Задача 6 и 7
+        var weightBoxer1 = 78.2; // Первый боксер
+        var weightBoxer2 = 82.7; // Второй боксер
+        var weightCommon = weightBoxer1 + weightBoxer2; // Общий вес двух бойцов
         System.out.println("Общий вес двух бойцов " + weightCommon + " кг!");
-        var weightDifference = weightBoxer1 - weightBoxer2;
+        var weightDifference = weightBoxer1 - weightBoxer2; // Разниц между бойцами с минусом
         System.out.println("Разница между бойцами составляет " + weightDifference + " кг!");
-        weightDifference = weightBoxer2 - weightBoxer1;
+        weightDifference = weightBoxer2 - weightBoxer1; // Разниц между бойцами без мминуса
         System.out.println("Разница между бойцами  " + weightDifference + " кг!");
-        var weightVariance = weightCommon % weightBoxer1;
+        var weightVariance = weightCommon % weightBoxer1; // Функция остаток от деления
         System.out.println("Разница  " + weightVariance + " кг!");
+        System.out.println();
 
+        // Задача 8
         var totalTime = 640;
         var timeEmployee = 8;
         var allEmployee = totalTime / timeEmployee;
@@ -63,12 +78,14 @@ public class Main {
         System.out.println("После наёма новых людей, сотрудников стало — " + newEmployee + " человек");
         var timeEmployee2 = totalTime / newEmployee;
         System.out.println("Если в компании работает " + newEmployee + " человек, то всего " + timeEmployee2 + " часа работы может быть поделено между сотрудниками");
+        System.out.println();
 
     }
 
     public static void task2 () {
         System.out.println("Переменные. Урок 2");
 
+        // Задача 1
         byte a = 112;
         System.out.println(a);
         short b = 24578;
@@ -81,7 +98,9 @@ public class Main {
         System.out.println(r);
         double m = -1.984f;
         System.out.println(m);
+        System.out.println();
 
+        // Задача 2
         float g = 27.12f;
         System.out.println(g);
         long l = 987678965549L;
@@ -96,16 +115,19 @@ public class Main {
         System.out.println(z);
         byte x = 67;
         System.out.println(x);
+        System.out.println();
 
-        byte class1 = 23;
-        byte class2 = 27;
-        byte class3 = 30;
-        short paper = 480;
-        byte totalClass = (byte) (class1 + class2 + class3);
-        System.out.println("Всего учеников " + totalClass);
-        byte win = (byte) (paper / totalClass);
+        // Задача 3 Способ 1
+
+        int class1 = 23;
+        int class2 = 27;
+        int class3 = 30;
+        int paper = 480;
+        int totalClass =  (class1 + class2 + class3); // Всего учеников
+        int win =  (paper / totalClass);
         System.out.println("На каждого ученика рассчитано " + win + " листов бумаги" );
 
+        // Задача 3 Способ 2
         System.out.println("Попробуем решить по другому" );
         byte class4 = 23;
         byte class5 = 27;
@@ -113,33 +135,38 @@ public class Main {
         short paper1 = 480;
         byte win1 = (byte) (paper1 / (class4 + class5 + class6));
         System.out.println("На каждого ученика рассчитано " + win1 + " листов бумаги" );
+        System.out.println();
 
-        byte bottle = 16;
-        byte timeBottle = (byte) (bottle / 2);
+        // Задача 4
+        int bottle = 16;
+        int timeBottle =  (bottle / 2); // Узнали сколько машина делает изделей за 1 минуту
         System.out.println("Машина производит за 1 минуту " + timeBottle + " бутылок" );
-        byte time1 = 20;
-        short timeBottle1 = (short) (timeBottle * time1);
+        int time1 = 20;
+       int timeBottle1 = (timeBottle * time1); // Узнали сколько машина делает изделей за 20 минут
         System.out.println("За " + time1 + " минут машина произвела " + timeBottle1 + " штук бутылок" );
-        short dayMin = (short) (24 * 60 );
-        short dayBottel = (short) (timeBottle * dayMin);
+        int dayMin =  (24 * 60 );
+        int dayBottel =  (timeBottle * dayMin); // Узнали сколько машина делает изделей за сутки
         System.out.println("За сутки машина произвела " + dayBottel + " штук бутылок" );
-        short threeDay = (short) (dayMin * 3 );
-        int threeBottel = threeDay * timeBottle;
+        int threeDay = (dayMin * 3 );
+        int threeBottel = threeDay * timeBottle; // Узнали сколько машина делает изделей за 3 дня
         System.out.println("За 3 дня машина произвела " + threeBottel + " штук бутылок" );
         int monthTime = dayMin * 30 ;
-        int monthBottel = monthTime * timeBottle;
+        int monthBottel = monthTime * timeBottle; // Узнали сколько машина делает изделей за 30 дней
         System.out.println("За месяц машина произвела " + monthBottel + " штук бутылок" );
+        System.out.println();
 
-        byte totalBank = 120;
-        byte bulayaBank = 2;
-        byte brownBank = 4;
-        byte oneClass = (byte) (bulayaBank + brownBank);
-        byte allClass = (byte) (totalBank / oneClass);
-        byte allBulay = (byte) (allClass * bulayaBank);
-        byte allBrown =(byte) (allClass * brownBank);
+        // Задача 5
+        int totalBank = 120;
+        int bulayaBank = 2;
+        int brownBank = 4;
+        int oneClass = (bulayaBank + brownBank);
+        int allClass = (totalBank / oneClass);
+        int allBulay = (allClass * bulayaBank);
+       int allBrown = (allClass * brownBank);
         System.out.println("В школе, где " + allClass + " классов, нужно " + allBulay + " банок белой краски и " + allBrown + " банок коричневой краски" );
+        System.out.println();
 
-
+        // Задача 6
         byte banana = 5;
         short milk = 200;
         byte ice = 2;
@@ -148,21 +175,23 @@ public class Main {
         System.out.println("Вес спортзавтракка " + kotelgGrams + " в гр!");
         float kotelgKilogram = (float) kotelgGrams / 1000;
         System.out.println("Вес спортзавтракка " + kotelgKilogram + " в кг!");
+        System.out.println();
 
-
-        byte allWeight = 7;
-        short weight1 = 250;
-        short weight2 = 500;
-        short allGrams = (short) (allWeight * 1000);
+        // Задача 7
+        int allWeight = 7;
+        int weight1 = 250;
+        int weight2 = 500;
+        int allGrams = (allWeight * 1000);
         System.out.println("Перевели кг в гр и получили " + allGrams + "  гр!");
-        short taim1 = (short) (allGrams / weight1);
+        int taim1 = (allGrams / weight1);
         System.out.println("Если спортсмен будеть худеть " + weight1 + "  гр в день! То на это уйдет " + taim1 + " дней");
-        short taim2 = (short) (allGrams / weight2);
+        int taim2 = (allGrams / weight2);
         System.out.println("Если спортсмен будеть худеть " + weight2 + "  гр в день! То на это уйдет " + taim2 + " дней");
-        short averageTaim = (short) ((taim1 + taim2) / 2 );
+        int averageTaim = ((taim1 + taim2) / 2 );
         System.out.println("Среднее значение  " + averageTaim + "  день" + "! Для похудания");
+        System.out.println();
 
-
+        // Задача 8
         int masha = 67760;
         int denis = 83690;
         int christina = 76230;
